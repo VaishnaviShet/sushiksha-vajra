@@ -1,0 +1,106 @@
+.title{
+    color:wheat;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center;
+    font-size: 2em;
+    padding:2px;
+    border-bottom: solid white 0.5em;
+
+
+}
+
+.buttonclass {
+    border-radius: 26px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1em;
+    align-self: center;
+
+
+}
+
+button{
+    padding: 5px;
+    color: yellow;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 2em;
+    background-color: red;
+}
+
+.welcome{
+    padding-top: 20px;
+    margin: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+body{
+    background: #780206; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #061161,
+      #780206
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #061161,
+      #780206
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+/*.result-div{
+   
+
+}*/
+.result-div .heading {
+    /*text-align: right;*/
+    text-indent: 5rem;
+    padding: 10px;
+    margin: 10px;
+    color: sandybrown;
+    font-size: 50px;
+
+}
+.result-div .main-result {
+    
+    padding: 15px;
+    color: yellowgreen;
+    font-size: 50px;
+    border: whitesmoke 2px solid;
+    text-align: center;
+}
+/*
+.buttonclass button{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+    size: 5px;
+}*/
+
+h4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.button2{
+    margin: 10px;
+  
+  }
+  .btn{
+    padding: 8px;
+    font-size: 1em;
+    color:white;
+    background-color: red;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    transition: all 0.7s;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+    outline: none;
+  }

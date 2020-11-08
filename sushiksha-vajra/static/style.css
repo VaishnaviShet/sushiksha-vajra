@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bgimage {
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100% 110%;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.leftmenu {
+  width: 20%;
+  line-height: 100px;
+  float: left;
+}
+.leftmenu:hover {
+  cursor: pointer;
+}
+.image {
+  height: 40px;
+  width: 50px;
+}
+
+.leftmenu h2 {
+  padding-left: 70px;
+  font-weight: bold;
+  color: aqua;
+  font-size: 3em;
+  font-family: "Big Shoulders Stencil Text", cursive;
+}
+.head {
+  font-size: 35px;
+}
+
+.rightmenu {
+  width: 70%;
+  height: 100px;
+  float: right;
+}
+
+.rightmenu ul {
+  margin-left: 200px;
+}
+
+.rightmenu ul li {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+.rightmenu ul li:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#fisrtlist {
+  color: aqua;
+}
+
+.rightmenu ul li:hover {
+  color: aqua;
+}
+
+.text {
+  width: 100%;
+  margin-top: 185px;
+
+  text-align: center;
+  color: aqua;
+}
+
+.text h4 {
+  font-size: 14px;
+
+  font-size: 2em;
+  font-family: "Merienda", cursive;
+}
+
+.text h1 {
+  font-size: 75px;
+
+  font-weight: 700px;
+  margin: 14px 0px;
+  font-family: "Architects Daughter", cursive;
+}
+
+.text h3 {
+  font-size: 30px;
+
+  font-style: italic;
+  font-family: "Merienda", cursive;
+}
+.foot {
+  height: 80px;
+  margin-bottom: 0px;
+  background-color: black;
+}
+.foot h4 {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Merienda", cursive;
+}
+.team {
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  box-sizing: 3px;
+  margin: 25px;
+}
+.names {
+  color: white;
+  font-weight: bold;
+  font-family: "Itim", cursive;
+  font-size: 1.4em;
+  list-style: none;
+  display : inline-flex;
+}
+.scl {
+  color: orange;
+  padding: 5px;
+  text-decoration: underline;
+  font-family: "Itim", cursive;
+  font-size: 1.7em;
+}
+
+.names1{
+  padding: 3px;
+}
